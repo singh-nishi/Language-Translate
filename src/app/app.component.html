@@ -20,7 +20,7 @@ The content below is only a placeholder and can be replaced.-->
  <!-- <app-registration></app-registration> -->
 
 Welcome {{lang}}
-<div class="container" *ngIf="lang=='en-US'">
+<div class="container">
     <div class="row main">
       <div class="main-login main-center">
       <h5>Sign up </h5>
@@ -32,7 +32,7 @@ Welcome {{lang}}
               <div class="input-group"  >
                 <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
                 <!-- <input type="text" class="form-control" [(ngModel)]="name"  placeholder="Enter your Name"/> -->
-                <label>{{post.name }}</label>
+                <label>{{post.name | translate  }}</label>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ Welcome {{lang}}
               <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
                 <!-- <input type="text" class="form-control" [(ngModel)]="email"   placeholder="Enter your Email"/> -->
-                <label>{{post.email }}</label>
+                <label>{{post.email  }}</label>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ Welcome {{lang}}
       </div>
     </div>
   </div>
-  <div class="container" *ngIf="lang=='fr'"  lang="fr" xml:lang="fr">
+  <!-- <div class="container" *ngIf="lang=='fr'"  lang="fr" xml:lang="fr">
     <div class="row main">
       <div class="main-login main-center">
       <h5>Sinscrire</h5>
@@ -154,7 +154,7 @@ Welcome {{lang}}
             <a href="http://deepak646.blogspot.in" target="_blank" type="button"  class="btn btn-primary btn-lg btn-block login-button">Register</a>
           </div> -->
           
-        </form>
+        <!-- </form>
       </div>
-    </div>
-  </div>
+    </div> -->
+  <!-- </div> --> 
