@@ -1,31 +1,31 @@
 [
     {
-        "name": "main_window",
+        "Nom": "main_window",
         "email": "Rance",
-        "username": 500,
-        "password": 500,
-        "confirm":500
+        "Nomdutilisateur": 500,
+        "Motdepasseoublie": 500,
+        "Confirmer":500
     },
     {
-        "name": "Shabnam",
+        "Nom": "Shabnam",
         "email": "Rance",
-        "username": 500,
-        "password": 500,
-        "confirm":500
+        "Nomdutilisateur": 500,
+        "Motdepasseoublie": 500,
+        "Confirmer":500
     },
     {    
-        "name": "main_window",
+        "Nom": "main_window",
         "email": "Sample Konfabulator Widget",
-        "username": 500,
-        "password": 5,
-        "confirm":5
+        "Nomdutilisateur": 500,
+        "Motdepasseoublie": 5,
+        "Confirmer":5
     },
     {
-        "name": "Shabnam",
+        "Nom": "Shabnam",
         "email": "Shahin",
-        "username": 5,
-        "password": 5,
-        "confirm":5
+        "Nomdutilisateur": 5,
+        "Motdepasseoublie": 5,
+        "Confirmer":5
     }
 
     
