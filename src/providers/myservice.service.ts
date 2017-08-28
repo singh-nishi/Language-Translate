@@ -2,13 +2,14 @@ import { Component, Input } from '@angular/core';
 import { Injectable }     from '@angular/core';
 import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import {Observable} from 'rxjs/Rx';
-import{urlHash}from'./config'
+import{urlHash}from'../app/config'
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
 @Injectable()
 export class MyService{
    dataAPI: any;
    lang:any;
+  
  constructor(private http: Http) {
     this.lang = window.navigator.language; 
     if (this.lang == 'en-US' ) {
@@ -16,9 +17,12 @@ export class MyService{
         this.dataAPI=urlHash['en-us'] 
       }
       else if(this.lang == 'fr'){
-        alert(this.lang);
+          alert(this.lang);
         this.dataAPI=urlHash['fr'] 
         alert(this.dataAPI) ;
+      }
+      else{
+        alert("no match") ; 
       }
         }
     getJSON(): Observable<any> {
@@ -28,8 +32,8 @@ export class MyService{
 }
 
 private extractData(res:Response) {
-let body = res.json();
-return body || [];
+    let body = res.json();
+    return body || [];
 }
 
 private handleError(error:any) {

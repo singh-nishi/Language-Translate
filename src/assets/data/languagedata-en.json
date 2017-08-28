@@ -1,15 +1,17 @@
 [
-    {
-        "title": "Sample Konfabulator Widget",
+    {    
         "name": "main_window",
-        "width": 500,
-        "height": 500
+        "email": "Sample Konfabulator Widget",
+        "username": 500,
+        "password": 5,
+        "confirm":5
     },
     {
-        "title": "Shahin",
         "name": "Shabnam",
-        "width": 5,
-        "height": 5
+        "email": "Shahin",
+        "username": 5,
+        "password": 5,
+        "confirm":5
     }
     
 ]
