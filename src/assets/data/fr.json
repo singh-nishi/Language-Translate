@@ -1,32 +1,9 @@
 [
     {
-        "name": "main_window",
-        "email": "Rance",
-        "Nomdutilisateur": 500,
-        "Motdepasseoublie": 500,
-        "Confirmer":500
-    },
-    {
-        "name": "Shabnam",
-        "email": "Rance",
-        "Nomdutilisateur": 500,
-        "Motdepasseoublie": 500,
-        "Confirmer":500
-    },
-    {    
-        "name": "main_window",
-        "email": "Sample Konfabulator Widget",
-        "Nomdutilisateur": 500,
-        "Motdepasseoublie": 5,
-        "Confirmer":5
-    },
-    {
-        "name": "Shabnam",
-        "email": "Shahin",
-        "Nomdutilisateur": 5,
-        "Motdepasseoublie": 5,
-        "Confirmer":5
+        "name": "prénom",
+        "email": "Email",
+        "username": "Nom d'utilisateur",
+        "password": "Mot de passeoublie",
+        "confirmPassword":"Confirmer"
     }
-
-    
 ]

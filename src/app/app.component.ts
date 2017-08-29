@@ -5,7 +5,8 @@ import {Http, Response} from '@angular/http';
 import {Subscription } from 'rxjs';
 import{urlHash}from'./config';
 // import { TranslateService } from './translate';
-import {TranslateService} from '@ngx-translate/core';
+//import {TranslateService} from '@ngx-translate/core';
+import { TranslateService } from 'ng2-translate';
 @Component({
 
   selector: 'app-root',

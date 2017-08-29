@@ -22,7 +22,7 @@ export class MyService{
         alert(this.dataAPI) ;
       }
       else{
-        alert("no match") ; 
+        this.dataAPI=urlHash['en-us'] ;
       }
         }
     getJSON(): Observable<any> {

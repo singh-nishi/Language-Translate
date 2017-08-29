@@ -1,17 +1,9 @@
 [
     {    
-        "name": "main_window",
-        "email": "Sample Konfabulator Widget",
-        "username": 500,
-        "password": 5,
-        "confirm":5
-    },
-    {
-        "name": "Shabnam",
-        "email": "Shahin",
-        "username": 5,
-        "password": 5,
-        "confirm":5
-    }
-    
+        "name": "Name",
+        "email": "Email",
+        "username": "User Name",
+        "password": "Password",
+        "confirmPassword": "Confirm Password"
+    }    
 ]

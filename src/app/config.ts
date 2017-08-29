@@ -1,5 +1,5 @@
 export var urlHash = {
-    'en-us': '../assets/data/languagedata-en.json',
-   'fr': '../assets/data/languagedata-fr.json',
+    'en-us': '../assets/data/en.json',
+   'fr': '../assets/data/fr.json',
     
 };
