@@ -12,6 +12,7 @@ export class MyService{
   
  constructor(private http: Http) {
     this.lang = window.navigator.language; 
+    alert(this.lang);
     if (this.lang == 'en-US' ) {
         console.log("language is english");
         this.dataAPI=urlHash['en-us'] 
@@ -22,7 +23,7 @@ export class MyService{
         alert(this.dataAPI) ;
       }
       else{
-        this.dataAPI=urlHash['en-us'] ;
+        this.dataAPI=urlHash['fr'] 
       }
         }
     getJSON(): Observable<any> {

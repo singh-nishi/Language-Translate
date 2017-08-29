@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
    this.getPosts();
      }
 ngOnInit() {
-      this.lang = window.navigator.language; 
+     // this.lang = window.navigator.language; 
      console.log(this.lang);
     
    }
